@@ -1,0 +1,51 @@
+body {
+    background: url(bg\ form\ perpustakaan.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+h2{
+    color: rgb(243, 60, 167);
+}
+
+container h3 {
+    margin: auto;
+    margin-top: 4rem;
+    width: 85%;
+    background-color: rgb (189, 76, 199);
+    filter: opacity(90%);
+    border: 2px  rgb(245, 17, 105); 
+    border-radius: 20px;
+}
+
+container h3 {
+    text-align: center;
+    color: beige;
+}
+
+table {
+    margin: auto;
+    overflow-x: auto;
+    margin-bottom: 30px;
+    height: 75vh;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+th {
+    color:  rgb(100, 91, 94);
+}
+
+th:hover {
+    background-color:  rgb(250, 118, 168);
+    transition:0,5s;
+}    
+
+@media (max-width: 500px) {
+    container {
+        width: 64vh;
+    }
+
+    table {
+        width: 60vh;
+    }
+}
